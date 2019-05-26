@@ -2216,7 +2216,6 @@ GameObject:
   - component: {fileID: 954915112}
   - component: {fileID: 954915111}
   - component: {fileID: 954915110}
-  - component: {fileID: 954915109}
   m_Layer: 0
   m_Name: BigCollider (1)
   m_TagString: Untagged
@@ -2224,18 +2223,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!114 &954915109
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 954915108}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 30f52bafd82d00547b9fc38d6c987331, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!114 &954915110
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3618,7 +3605,6 @@ GameObject:
   - component: {fileID: 1430254403}
   - component: {fileID: 1430254402}
   - component: {fileID: 1430254401}
-  - component: {fileID: 1430254400}
   m_Layer: 0
   m_Name: BigCollider (2)
   m_TagString: Untagged
@@ -3626,18 +3612,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!114 &1430254400
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1430254399}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 30f52bafd82d00547b9fc38d6c987331, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!114 &1430254401
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3935,7 +3909,6 @@ GameObject:
   - component: {fileID: 1494699966}
   - component: {fileID: 1494699965}
   - component: {fileID: 1494699964}
-  - component: {fileID: 1494699963}
   m_Layer: 0
   m_Name: BigCollider (4)
   m_TagString: Untagged
@@ -3943,18 +3916,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!114 &1494699963
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1494699962}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 30f52bafd82d00547b9fc38d6c987331, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!114 &1494699964
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4416,7 +4377,6 @@ GameObject:
   - component: {fileID: 1812669888}
   - component: {fileID: 1812669887}
   - component: {fileID: 1812669886}
-  - component: {fileID: 1812669885}
   m_Layer: 0
   m_Name: BigCollider (3)
   m_TagString: Untagged
@@ -4424,18 +4384,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!114 &1812669885
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1812669884}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 30f52bafd82d00547b9fc38d6c987331, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!114 &1812669886
 MonoBehaviour:
   m_ObjectHideFlags: 0

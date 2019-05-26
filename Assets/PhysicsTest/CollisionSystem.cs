@@ -113,11 +113,15 @@ public class CollisionSystem : JobComponentSystem
                     var aPos = posFromEntity[a].Value;
                     var bPos = posFromEntity[b].Value;
 
-                    if( Utils.CirclesOverlap(aPos, aColl.radius, bPos, bColl.radius) )
+                    if (Utils.Collides(aColl.collidesWith, bColl.inGroup))
                     {
-                        commandBuffer.AddComponent(index, a, new CollisionTag());
-                        commandBuffer.AddComponent(index, b, new CollisionTag());
+                        if (Utils.CirclesOverlap(aPos, aColl.radius, bPos, bColl.radius))
+                        {
+                            commandBuffer.AddComponent(index, a, new CollisionTag());
+                            commandBuffer.AddComponent(index, b, new CollisionTag());
+                        }
                     }
+
                 }
             }
         }

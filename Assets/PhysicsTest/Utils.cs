@@ -47,4 +47,14 @@ public class Utils
             }
         }
     }
+
+    public static bool Collides(CollisionFlags mask, CollisionFlags category)
+    {
+        return (category & mask) != 0;
+    }
+
+    public static bool HasFlag(CollisionFlags yourFlag, CollisionFlags against )
+    {
+        return ((against & yourFlag) != 0);
+    }
 }
